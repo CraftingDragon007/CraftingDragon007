@@ -1,5 +1,5 @@
 ### Hi there 👋
-
+![Crafty's GitHub stats](https://github-readme-stats.vercel.app/api?username=CraftingDragon007&theme=blue-green)
 <!--
 **CraftingDragon007/CraftingDragon007** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 

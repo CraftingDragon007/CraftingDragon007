@@ -1,0 +1,12 @@
+services:
+  github-readme-stats:
+    image: registry.gamepowerx.com/github-readme-stats:latest
+    container_name: github-readme-stats
+    restart: unless-stopped
+    ports:
+      - "9000:9000"
+    environment:
+      PAT_1: ${PAT_1:?set PAT_1 in your environment or .env file}
+      WHITELIST: CraftingDragon007
+      CACHE_SECONDS: "86400"
+      PORT: "9000"
